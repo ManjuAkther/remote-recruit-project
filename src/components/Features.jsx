@@ -82,7 +82,7 @@ export default function FeaturesList() {
         <div className="absolute right-[8%] sm:right-[12%] lg:right-8 top-16 w-16 h-16 rounded-full bg-gradient-to-tr from-blue-700 to-blue-500 shadow-lg shadow-blue-500/20 z-20 flex items-center justify-center border-4 border-white">
           <div className="text-white text-[10px] font-black tracking-tighter flex flex-col items-center leading-none">
             {/* <span>R</span><span> <img src="/public/img/RER</span> */}
-        <img src="/img/REMOTE RECRUIT sign color background blue (2).png" alt="logo" />
+         <img src={logo}></img>
           </div>
         </div>
 
