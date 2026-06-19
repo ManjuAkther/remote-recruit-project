@@ -11,7 +11,7 @@ const Hero = () => {
 <div className="flex flex-col items-center justify-center tracking-tight transition-colors select-none">
   {/* TOP IMAGE: Remote */}
   <img 
-    src="/img/Remote.svg" 
+    src="/src/assets/img/Remote.svg" 
     alt="Remote top brand element" 
     className="h-4 w-auto object-contain" 
   />
@@ -20,7 +20,7 @@ const Hero = () => {
       - Adjust `-mt-1` (negative top margin) to control exactly how much they overlap or close the gap.
   */}
   <img 
-    src="/img/Recruit.svg" 
+    src="/src/assets/img/Recruit.svg" 
     alt="Recruit bottom brand element" 
     className="h-4 w-auto object-contain -mt-1 transition-transform duration-300 hover:translate-y-0.5" 
   />
