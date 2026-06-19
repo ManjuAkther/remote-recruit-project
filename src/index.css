@@ -1,0 +1,27 @@
+@layer utilities {
+  /* Wave layout clipping path style parameter matching the figma outline */
+  .clip-wave-top {
+    clip-path: polygon(0 12%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+
+@media (min-width: 768px) {
+  @layer utilities {
+    .clip-wave-top {
+      clip-path: polygon(0 18%, 100% 0%, 100% 100%, 0% 100%);
+    }
+  }
+}
+
+
+@keyframes floatUpAndDown {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+.animate-float-slow {
+  animation: floatUpAndDown 4s ease-in-out infinite;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
