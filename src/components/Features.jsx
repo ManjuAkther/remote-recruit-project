@@ -47,7 +47,7 @@ export default function FeaturesList() {
             <div className="w-full h-4 bg-white rounded border border-slate-200/60">
              </div>
             <div className="flex-1 bg-white rounded border border-slate-200/60 p-2 space-y-2">
-                <img src="/public/img/Find Work.png"></img> <div className="w-16 h-2 bg-blue-100 rounded"></div>
+                <img src="/dist/img/Find Work.png"></img> <div className="w-16 h-2 bg-blue-100 rounded"></div>
               <div className="w-full h-12 bg-slate-50 rounded"></div>
             </div>
        
