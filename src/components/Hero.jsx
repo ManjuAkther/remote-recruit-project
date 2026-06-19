@@ -1,8 +1,11 @@
+
+import bgImage from "../assets/img/Background.svg";
 const Hero = () => {
   return (
-    <section className="bg-[url('/img/Background.svg')]
-     bg-cover bg-center text-white pt-10 pb-32 relative overflow-hidden">
-      
+   <section
+  className="bg-cover bg-center text-white pt-10 pb-32 relative overflow-hidden"
+  style={{ backgroundImage: `url(${bgImage})` }}
+>
       {/* Navbar */}
       <div className="flex justify-between items-center px-6 md:px-16">
   
