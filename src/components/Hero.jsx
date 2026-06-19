@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
-    <section className="bg-[url(public/img/Background.svg)]
-     bg-cover bg-centers text-white pt-10 pb-32 relative overflow-hidden">
+    <section className="bg-[url('/img/Background.svg')]
+     bg-cover bg-center text-white pt-10 pb-32 relative overflow-hidden">
       
       {/* Navbar */}
       <div className="flex justify-between items-center px-6 md:px-16">
