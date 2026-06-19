@@ -4,7 +4,7 @@ A high-fidelity, fully responsive implementation of the RemoteRecruit features l
 
 ## 🚀 Live Demo & Repository
 *   **Deployment Link:** [https://vercel.app](https://vercel.app)
-*   **GitHub Repository:** [https://github.com](https://github.com)
+*   **GitHub Repository:** [https://github.com/ManjuAkther/remote-recruit-project.git]
 
 ---
 

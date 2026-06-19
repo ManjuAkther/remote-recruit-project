@@ -5,7 +5,9 @@ const Hero = () => {
       
       {/* Navbar */}
       <div className="flex justify-between items-center px-6 md:px-16">
-        <h1 className="text-xl font-bold">RemoteRecruit</h1>
+        <h1 className="text-xl font-bold "
+       >RemoteRecruit</h1>
+
 
         <div className="space-x-4">
           <button>Sign In</button>
