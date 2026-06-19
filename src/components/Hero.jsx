@@ -21,7 +21,7 @@ const Hero = () => {
   */}
   <img 
     src="/src/assets/img/Recruit.svg" 
-    alt="Recruit bottom brand element" 
+   alt="Recruit top brand element" 
     className="h-4 w-auto object-contain -mt-1 transition-transform duration-300 hover:translate-y-0.5" 
   />
 </div>
