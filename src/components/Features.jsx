@@ -34,23 +34,27 @@ export default function FeaturesList() {
         
         {/* Main Interface Layout Window Component Container */}
         <div className="w-full max-w-[420px] bg-white rounded-3xl p-2 shadow-[0_30px_70px_rgba(0,0,0,0.07)] border border-slate-100 relative z-10 overflow-hidden aspect-[4/3]">
-          <div className="w-full h-full bg-slate-50 rounded-2xl p-4 flex flex-col gap-2">
+          <div
+              className="w-full h-full bg-slate-50 rounded-2xl p-4 flex flex-col gap-2">
+               
             <div className="flex justify-between items-center border-b border-slate-200/60 pb-2">
               <div className="space-y-1">
                 <div className="w-12 h-2 bg-slate-300 rounded"></div>
                 <div className="w-20 h-3 bg-slate-800 rounded"></div>
               </div>
               <div className="w-4 h-4 bg-slate-300 rounded-full"></div>
-            </div>
-            <div className="w-full h-4 bg-white rounded border border-slate-200/60"></div>
+            </div> 
+            <div className="w-full h-4 bg-white rounded border border-slate-200/60">
+             </div>
             <div className="flex-1 bg-white rounded border border-slate-200/60 p-2 space-y-2">
-              <div className="w-16 h-2 bg-blue-100 rounded"></div>
+                <img src="/public/img/Find Work.png"></img> <div className="w-16 h-2 bg-blue-100 rounded"></div>
               <div className="w-full h-12 bg-slate-50 rounded"></div>
             </div>
+       
           </div>
         </div>
 
-      
+      {/* <img src="/public/img/"></img> */}
         
         {/* Python Developer Badge (Felonious Gru) */}
         <div className="absolute left-[-4%] sm:left-4 top-[35%] bg-white rounded-2xl p-3 shadow-[0_20px_40px_rgba(0,0,0,0.08)] border border-slate-50 z-20 flex items-center gap-3 w-64 max-w-[85%] sm:max-w-full">
@@ -75,9 +79,10 @@ export default function FeaturesList() {
         </div>
 
         {/* Floating Brand Coin Icon Token Decoration */}
-        <div className="absolute right-[8%] sm:right-[12%] lg:right-8 top-16 w-14 h-14 rounded-full bg-gradient-to-tr from-blue-700 to-blue-500 shadow-lg shadow-blue-500/20 z-20 flex items-center justify-center border-4 border-white">
+        <div className="absolute right-[8%] sm:right-[12%] lg:right-8 top-16 w-16 h-16 rounded-full bg-gradient-to-tr from-blue-700 to-blue-500 shadow-lg shadow-blue-500/20 z-20 flex items-center justify-center border-4 border-white">
           <div className="text-white text-[10px] font-black tracking-tighter flex flex-col items-center leading-none">
-            <span>R</span><span>R</span>
+            {/* <span>R</span><span>R</span> */}
+            <img src="/public/img/REMOTE RECRUIT sign color background blue (2).png"></img>
           </div>
         </div>
 
@@ -140,7 +145,7 @@ export default function FeaturesList() {
             {/* Floating Blue Brand Coin Emblem */}
             <div className="absolute right-[10%] sm:right-[22%] lg:right-16 top-24 w-14 h-14 rounded-full bg-gradient-to-tr from-blue-700 to-blue-500 shadow-xl shadow-blue-500/20 z-20 flex items-center justify-center border-4 border-white">
               <div className="text-white text-[10px] font-black tracking-tighter flex flex-col items-center leading-none">
-                <span>R</span><span>R</span>
+            <img src="/public/img/REMOTE RECRUIT sign color background blue (2).png"></img>
               </div>
             </div>
 
