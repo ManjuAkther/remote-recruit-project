@@ -47,7 +47,7 @@ export default function FeaturesList() {
             <div className="w-full h-4 bg-white rounded border border-slate-200/60">
              </div>
             <div className="flex-1 bg-white rounded border border-slate-200/60 p-2 space-y-2">
-                <img src="/dist/img/Find Work.png"></img> <div className="w-16 h-2 bg-blue-100 rounded"></div>
+                <img src="/img/Find Work.png" alt="Find Work"></img> <div className="w-16 h-2 bg-blue-100 rounded"></div>
               <div className="w-full h-12 bg-slate-50 rounded"></div>
             </div>
        
@@ -81,8 +81,8 @@ export default function FeaturesList() {
         {/* Floating Brand Coin Icon Token Decoration */}
         <div className="absolute right-[8%] sm:right-[12%] lg:right-8 top-16 w-16 h-16 rounded-full bg-gradient-to-tr from-blue-700 to-blue-500 shadow-lg shadow-blue-500/20 z-20 flex items-center justify-center border-4 border-white">
           <div className="text-white text-[10px] font-black tracking-tighter flex flex-col items-center leading-none">
-            {/* <span>R</span><span>R</span> */}
-            <img src="/public/img/REMOTE RECRUIT sign color background blue (2).png"></img>
+            {/* <span>R</span><span> <img src="/public/img/RER</span> */}
+        <img src="/img/REMOTE RECRUIT sign color background blue (2).png" alt="logo" />
           </div>
         </div>
 
@@ -218,7 +218,7 @@ export default function FeaturesList() {
     
               <div data-aos="fade-right">
        <img
-  src="/public/img/093143066a0755f54b00b4e3297b09f3b9e4136a.png"
+  src="/img/093143066a0755f54b00b4e3297b09f3b9e4136a.png"
   alt="dashboard"
   loading="lazy"
   className=" rounded-2xl

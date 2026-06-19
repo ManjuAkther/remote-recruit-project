@@ -5,17 +5,7 @@ const Hero = () => {
       
       {/* Navbar */}
       <div className="flex justify-between items-center px-6 md:px-16">
-  {/* <div className="relative flex items-center select-none">
-
- </div> <img src="/Remote.svg" alt="Remote" className="h-6 w-auto" /> */}
   
-  {/* Second part shifting left over the first one by using a negative margin */}
-  {/* <img 
-    src="/img/Recruit.svg" 
-    alt="Recruit" 
-    className="h-5 w-auto -ml-2 transition-transform duration-300 hover:translate-x-1" 
-  />
-</div> */}
 <div className="flex flex-col items-center justify-center tracking-tight transition-colors select-none">
   {/* TOP IMAGE: Remote */}
   <img 
