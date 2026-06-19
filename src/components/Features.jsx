@@ -47,14 +47,14 @@ export default function FeaturesList() {
             <div className="w-full h-4 bg-white rounded border border-slate-200/60">
              </div>
             <div className="flex-1 bg-white rounded border border-slate-200/60 p-2 space-y-2">
-                <img src="/img/Find Work.png" alt="Find Work"></img> <div className="w-16 h-2 bg-blue-100 rounded"></div>
+                <img src="/src/assets/img/Find Work.png" alt="Find Work"></img> <div className="w-16 h-2 bg-blue-100 rounded"></div>
               <div className="w-full h-12 bg-slate-50 rounded"></div>
             </div>
        
           </div>
         </div>
 
-      {/* <img src="/public/img/"></img> */}
+   
         
         {/* Python Developer Badge (Felonious Gru) */}
         <div className="absolute left-[-4%] sm:left-4 top-[35%] bg-white rounded-2xl p-3 shadow-[0_20px_40px_rgba(0,0,0,0.08)] border border-slate-50 z-20 flex items-center gap-3 w-64 max-w-[85%] sm:max-w-full">
@@ -218,7 +218,7 @@ export default function FeaturesList() {
     
               <div data-aos="fade-right">
        <img
-  src="/img/093143066a0755f54b00b4e3297b09f3b9e4136a.png"
+  src="/src/assets/img/093143066a0755f54b00b4e3297b09f3b9e4136a.png"
   alt="dashboard"
   loading="lazy"
   className=" rounded-2xl

@@ -11,7 +11,7 @@ const CTA = () => {
         {/* LEFT IMAGE */}
         <div data-aos="fade-right">
        <img
-  src="/public/img/e7843951ef2e446c079c88628a046de593aca411 (1).png"
+  src="/src/assets/img/e7843951ef2e446c079c88628a046de593aca411 (1).png"
   alt="dashboard"
   loading="lazy"
   className="rounded-xl shadow-lg w-full max-w-md mx-auto"
