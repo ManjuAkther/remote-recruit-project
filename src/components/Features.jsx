@@ -1,4 +1,4 @@
-
+import logo from '../assets/img/REMOTE RECRUIT sign color background blue (2).png'
 
 
 export default function FeaturesList() {
@@ -145,7 +145,7 @@ export default function FeaturesList() {
             {/* Floating Blue Brand Coin Emblem */}
             <div className="absolute right-[10%] sm:right-[22%] lg:right-16 top-24 w-14 h-14 rounded-full bg-gradient-to-tr from-blue-700 to-blue-500 shadow-xl shadow-blue-500/20 z-20 flex items-center justify-center border-4 border-white">
               <div className="text-white text-[10px] font-black tracking-tighter flex flex-col items-center leading-none">
-            <img src="/public/img/REMOTE RECRUIT sign color background blue (2).png"></img>
+            <img src={logo}></img>
               </div>
             </div>
 
